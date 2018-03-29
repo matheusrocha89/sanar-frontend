@@ -8,7 +8,7 @@ import Data from '../../data';
 
 class DataTable extends Component {
   renderRow = (item) => (
-    <tr>
+    <tr key={item.id}>
       <td>{item.id}</td>
       <td>{item.profissao}</td>
       <td>{item.instituto}</td>
@@ -21,7 +21,7 @@ class DataTable extends Component {
     const rows = this.renderRows();
 
     return (
-      <Table stripped bordered condensed hover responsive>
+      <Table stripped="true" bordered condensed hover responsive>
         <thead>
           <tr>
             <th>ID</th>

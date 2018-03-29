@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import { Header, DataTable } from '../';
+import { Header, DataTable, SubHeader } from '../';
 import './styles.css';
 
 class App extends Component {
@@ -8,6 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
+        <SubHeader />
         <DataTable />
       </div>
     );

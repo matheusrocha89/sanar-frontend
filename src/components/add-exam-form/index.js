@@ -32,7 +32,7 @@ class AddExamForm extends Component {
     e.preventDefault();
     if (this.validateForm()) {
       const exam = {
-        id: uuid().substring(1, 6),
+        id: uuid().substring(0, 5),
         profissao: this.state.profession,
         instituto: this.state.institution,
       };

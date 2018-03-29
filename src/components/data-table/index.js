@@ -1,12 +1,19 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import {
   Table,
 } from 'react-bootstrap';
 
-import Data from '../../data';
-
 
 class DataTable extends Component {
+  static propTypes = {
+    data: PropTypes.arrayOf(PropTypes.object),
+  };
+
+  static defaultProps = {
+    data: [],
+  };
+
   renderRow = (item) => (
     <tr key={item.id}>
       <td>{item.id}</td>
@@ -15,7 +22,7 @@ class DataTable extends Component {
     </tr>
   );
 
-  renderRows = () => Data.map(this.renderRow);
+  renderRows = () => this.props.data.map(this.renderRow);
 
   render() {
     const rows = this.renderRows();

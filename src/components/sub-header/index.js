@@ -1,8 +1,10 @@
 import React from 'react';
 
+import './styles.css';
+
 
 const SubHeader = () => (
-  <div className="SubHeader">
+  <div className="SubHeader clearfix">
     <div className="SubHeader-title-wrapper">
       <h1>Provas</h1>
     </div>

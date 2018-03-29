@@ -1,0 +1,13 @@
+.SubHeader {
+  border-bottom: 2px solid #83C090;
+  margin-bottom: 24px;
+}
+
+.SubHeader-title-wrapper {
+  float: left;
+}
+
+.SubHeader-add-button-wrapper {
+  float: right;
+  vertical-align: middle;
+}

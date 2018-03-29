@@ -4,12 +4,13 @@ import {
 } from 'react-bootstrap';
 
 import logo from '../../assets/logo-editora-sanar.jpg';
+import './styles.css';
 
 
 const Header = () => (
-  <Navbar>
+  <Navbar className="Header">
     <Navbar.Header>
-      <Navbar.Brand>
+      <Navbar.Brand className="Header-logo">
         <img src={logo} alt="logo" />
       </Navbar.Brand>
     </Navbar.Header>

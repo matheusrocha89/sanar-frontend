@@ -1,11 +1,11 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import App from './';
+import Header from './';
 
-describe('App', () => {
+describe('Header', () => {
   it('renders correctly', () => {
-    const tree = renderer.create(<App />).toJSON();
+    const tree = renderer.create(<Header />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DataTable renders correctly 1`] = `
+<div
+  className="table-responsive"
+>
+  <table
+    className="table table-bordered table-condensed table-hover"
+    stripped="true"
+  >
+    <thead>
+      <tr>
+        <th>
+          ID
+        </th>
+        <th>
+          Profissão
+        </th>
+        <th>
+          Instituto
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          1
+        </td>
+        <td>
+          test
+        </td>
+        <td>
+          test
+        </td>
+      </tr>
+      <tr>
+        <td>
+          2
+        </td>
+        <td>
+          test
+        </td>
+        <td>
+          test
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;

@@ -1,11 +1,12 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import App from './';
+import Footer from './';
 
-describe('App', () => {
+
+describe('Footer', () => {
   it('renders correctly', () => {
-    const tree = renderer.create(<App />).toJSON();
+    const tree = renderer.create(<Footer />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

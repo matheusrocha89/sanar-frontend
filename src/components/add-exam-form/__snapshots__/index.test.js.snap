@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddExamForm renders correctly 1`] = `
+<form>
+  <div
+    className="form-group"
+  >
+    <label
+      className="control-label"
+      htmlFor="profession"
+    >
+      Profissão*: 
+    </label>
+    <input
+      className="form-control"
+      id="profession"
+      maxLength={70}
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      className="control-label"
+      htmlFor={undefined}
+    >
+      Instituto: 
+    </label>
+    <input
+      className="form-control"
+      id={undefined}
+      maxLength={170}
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      className="control-label"
+      htmlFor={undefined}
+    >
+      Prova: 
+    </label>
+    <input
+      className=""
+      id={undefined}
+      onChange={[Function]}
+      type="file"
+      value=""
+    />
+  </div>
+  <div
+    className="AddExamForm-buttons"
+  >
+    <button
+      className="btn btn-success"
+      disabled={false}
+      onClick={[Function]}
+      type="submit"
+    >
+      Cadastrar
+    </button>
+  </div>
+</form>
+`;

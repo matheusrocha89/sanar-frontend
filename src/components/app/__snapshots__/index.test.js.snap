@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<div
+  className="App"
+>
+  <nav
+    className="Header navbar navbar-default"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="navbar-header"
+      >
+        <img
+          alt="logo"
+          className="Header-logo navbar-brand"
+          src="logo-editora-sanar.jpg"
+        />
+      </div>
+    </div>
+  </nav>
+  <div
+    className="App-container container"
+  >
+    <div
+      className="SubHeader clearfix"
+    >
+      <div
+        className="SubHeader-title-wrapper"
+      >
+        <h4>
+          Provas
+        </h4>
+      </div>
+      <div
+        className="SubHeader-add-button-wrapper"
+      >
+        <button
+          className="btn btn-success"
+          disabled={false}
+          onClick={[Function]}
+          type="button"
+        >
+          Novo
+        </button>
+      </div>
+    </div>
+    <div
+      className="table-responsive"
+    >
+      <table
+        className="table table-bordered table-condensed table-hover"
+        stripped="true"
+      >
+        <thead>
+          <tr>
+            <th>
+              ID
+            </th>
+            <th>
+              Profissão
+            </th>
+            <th>
+              Instituto
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>
+              medicina
+            </td>
+            <td>
+              Osvaldo Cruz
+            </td>
+          </tr>
+          <tr>
+            <td>
+              2
+            </td>
+            <td>
+              fisioterapia
+            </td>
+            <td>
+              Sarah Kubtschek
+            </td>
+          </tr>
+          <tr>
+            <td>
+              3
+            </td>
+            <td>
+              odontologia
+            </td>
+            <td>
+              Hospital São Paulo
+            </td>
+          </tr>
+          <tr>
+            <td>
+              4
+            </td>
+            <td>
+              enfermagem
+            </td>
+            <td>
+              Hospital Albert Einstein
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div
+    className="Footer"
+  >
+    <p>
+      Matheus Cruz Rocha
+    </p>
+  </div>
+</div>
+`;
